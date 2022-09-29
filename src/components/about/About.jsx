@@ -7,7 +7,7 @@ import {BsFolder} from 'react-icons/bs'
 
 const About = () => {
   return (
-    <section id='about'>About
+    <section id='about'>
       <h5>Get To Know</h5>
       <h2> About Me</h2>
 
