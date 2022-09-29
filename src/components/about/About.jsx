@@ -29,17 +29,17 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>Team Player</small>
+              <small>Group Projects & Solo Projects</small>
             </article>
 
             <article className='about__card'>
               <BsFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>20+ completed Projects</small>
+              <small>20+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum similique distinctio deleniti enim aliquam, sunt perferendis nobis soluta ab quo doloremque accusantium esse saepe, labore commodi hic facilis velit natus!
+            Hi! I'm Syrus welcome to my portfolio. I am a Social Worker now embarking on my journey of full stack web development. After attending the Web Development bootcamp at the University of Texas in Austin and gaining a variety of job ready skills. I am ready to help those in need of my services and to gain more knowledge to further grow as a developer! My skill set also includes Git, and some Python and Solidity (which both I'm actively still developing) Please reach out to me for more information or to get know me better! Thank you for your time! Hope to hear from you soon! :D
           </p>
 
           <a href="#contact" className='btn btn-primary'> Let's Chat!</a>
