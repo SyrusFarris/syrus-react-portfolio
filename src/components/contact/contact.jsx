@@ -2,9 +2,9 @@ import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,7 +30,7 @@ const contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>syrusfarris@gmail.com</h5>
-            <a href="mailto:syrusfarris@gmail.com" target="_blank">Send an email</a>
+            <a href="mailto:syrusfarris@gmail.com" target="_blank" rel="noopener noreferrer">Send an email</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
@@ -44,4 +44,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
