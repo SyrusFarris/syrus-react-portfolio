@@ -12,38 +12,37 @@ import IMG6 from '../../assets/portfolio6.png'
 const data = [
   {
     id: 1,
+    image: IMG5,
+    title: 'SyriousGPT',
+    github: 'https://github.com/SyrusFarris/ChatGPTAIApp',
+    demo: 'https://syriousgpt.vercel.app/'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Yume-Kuron',
+    github: 'https://github.com/SyrusFarris/yume-kuron',
+    demo: 'https://yumekuron.tech/'
+  },
+  {
+    id: 3,
     image: IMG1,
     title: 'Austin Travel Guide',
     github: 'https://github.com/SyrusFarris/austin-travel-guide',
     demo: 'https://syrusfarris.github.io/austin-travel-guide/'
   },
   {
-    id: 2,
-    image: IMG2,
-    title: 'Pixleview',
-    github: 'https://github.com/SyrusFarris/pixleview-anon',
-    demo: 'https://glacial-scrubland-16124.herokuapp.com/'
-  },
-  {
-    id: 3,
     image: IMG3,
     title: 'Honda Auto Quiz',
     github: 'https://github.com/SyrusFarris/honda-fact-quiz',
     demo: 'https://syrusfarris.github.io/honda-fact-quiz/'
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Work Day Scheduler',
     github: 'https://github.com/SyrusFarris/work-day-scheduler',
     demo: 'https://syrusfarris.github.io/work-day-scheduler/'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Password Generator',
-    github: 'https://github.com/SyrusFarris/password-generator',
-    demo: 'https://syrusfarris.github.io/password-generator/'
   },
   {
     id: 6,
